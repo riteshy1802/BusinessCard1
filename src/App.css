@@ -18,9 +18,10 @@ body{
   width: 25.5em;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: #23252C;
-  margin-left: 35em;
+  margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
   border-radius: 2em;
@@ -30,6 +31,7 @@ body{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
   width: 20em;
@@ -129,7 +131,8 @@ body{
   border-radius: 15px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content:center;
+  gap: 4vmin;
   font-size: 1.5em;
 }
 .links a{
